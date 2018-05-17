@@ -1,8 +1,19 @@
 {
-	"name":"him-and-robot/teste",
-    "description": "A short description of what your package does",
+    "name": "gean/testeum",
+    "description": "Pacote teste",
+    "type": "project",
     "require": {
-        "php": "^5.3.3 || ^7.0",
-        "monolog/monolog":"*"
-    }
+        "monolog/monolog": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gean Pedro",
+            "email": "geanpn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
